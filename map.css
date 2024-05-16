@@ -1,0 +1,135 @@
+#map{
+    height:1100px;
+}
+#nav{
+    background-color:white;
+    margin-left:100px;
+    width:fit-content;
+    position:fixed;
+    top:20px;
+    right:30px;
+    padding-bottom:5px;
+    padding-right:5px;
+    border-radius:5px;
+}
+.nav{
+    background-color:rgb(209, 209, 209);
+    border-radius:10px;
+    width:40px;
+    height:40px;
+    margin-top:5px;
+    margin-left:5px;
+    cursor:pointer;
+    float:left;
+}
+.pic{
+    width:30px;
+    margin-top:5px;
+    margin-left:5px;
+}
+
+.cir{
+    width:24px;
+    height:24px;
+    background-color:rgb(235, 80, 66);
+    border-radius:50%;
+    position:absolute;
+}
+.tri{
+    width:0;
+    height:0;
+    border-top:24px solid rgb(235, 80, 66);
+    border-right:12px solid transparent;
+    border-left:12px solid transparent;
+    position:absolute;
+    top:15px;
+    border-radius:5px;
+}
+.point{
+    height:fit-content;
+    position:absolute;
+    z-index:2;
+    visibility:visible;
+    cursor:pointer;
+    visibility:hidden;
+}
+#p1{
+    top:505px;
+    left:1020px;
+}
+#p2{
+    top:460px;
+    left:850px;
+}
+#p3{
+    top:460px;
+    left:940px;
+}
+#p4{
+    top:420px;
+    left:620px;
+}
+#p5{
+    top:294px;
+    left:967px;
+}
+#p6{
+    top:490px;
+    left:920px;
+}
+#p7{
+    top:605px;
+    left:1160px;
+}
+#p8{
+    top:495px;
+    left:1200px;
+}
+#p9{
+    top:785px;
+    left:1260px;
+}
+#p10{
+    top:675px;
+    left:1190px;
+}
+#p11{
+    top:110px;
+    left:1040px;
+}
+#p12{
+    top:640px;
+    left:600px;
+}
+#p13{
+    top:770px;
+    left:1470px;
+}
+#p14{
+    top:255px;
+    left:534px;
+}
+
+#m{
+    width:fit-content;
+    background-color:white;
+    margin-left:100px;
+    display:block;
+    position:fixed;
+    top:90px;
+    right:20px;
+    padding-bottom:7px;
+    padding-right:3px;
+    border-radius:7px;
+}
+.m{
+    background-color:white;
+    border-radius:10px;
+    padding:6px;
+    margin-top:7px;
+    margin-left:3px;
+    cursor:pointer;
+    font-size:small;
+    text-align:center;
+    color:black;
+}
