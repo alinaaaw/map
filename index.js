@@ -10,12 +10,15 @@ let bus = document.getElementById("bus");
 let point_drink = document.getElementsByClassName("drink");
 let point_health = document.getElementsByClassName("health");
 let point_bus = document.getElementsByClassName("bus");
+let p = document.getElementById("p2");
+let detail = document.getElementById("detail");
 circ5.addEventListener("click",show_5,false);
 circ10.addEventListener("click",show_10,false);
 circ15.addEventListener("click",show_15,false);
 drink.addEventListener("click",show_d,false);
 health.addEventListener("click",show_h,false);
 bus.addEventListener("click",show_b,false);
+p.addEventListener("click",info,false);
 let show = [];
 let num = 15;
 
@@ -298,4 +301,8 @@ function hide_b(){
     bus.removeEventListener("click",hide_b,false);
     bus.addEventListener("click",show_b,false);
     show.splice(show.indexOf("bus"),1)
+}
+
+function info(){
+    detail.style.setProperty("visibility","visible");
 }
